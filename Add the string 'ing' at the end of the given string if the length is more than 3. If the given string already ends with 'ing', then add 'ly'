@@ -1,0 +1,7 @@
+str = input()
+if len(str) > 3:
+    if str.endswith('ing'):
+        str += 'ly'
+    else:
+        str += 'ing'
+print(str)
