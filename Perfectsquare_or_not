@@ -1,0 +1,7 @@
+import math
+number = int(input())
+sqrt = math.isqrt(number)
+if sqrt * sqrt == number:
+    print("Perfect square")
+else:
+    print("Not a perfect square"
