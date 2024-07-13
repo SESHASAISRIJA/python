@@ -1,0 +1,4 @@
+main_string = "hello world"
+substring = "world"
+result = substring in main_string
+print(result) 
