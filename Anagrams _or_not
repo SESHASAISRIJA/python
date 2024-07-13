@@ -1,0 +1,4 @@
+string1 = input()
+string2 = input()
+result = sorted(string1) == sorted(string2)
+print(result) 
