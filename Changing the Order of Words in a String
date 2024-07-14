@@ -1,0 +1,15 @@
+def reverse_words(s):
+    words = s.split()
+    reversed_words = ' '.join(reversed(words))
+    return reversed_words
+
+s = input()
+print(f"Reversed words: {reverse_words(s)}")
+
+                 (or)
+s=input()
+l=s.split()
+l1=l[::-1]
+print(l1)
+output=' '.join(l1)
+print(output)
