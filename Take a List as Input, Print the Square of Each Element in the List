@@ -1,0 +1,8 @@
+def square_elements(lst):
+    squared_lst = []
+    for x in lst:
+        squared_lst.append(x**2)
+    return squared_lst
+
+lst = list(map(int, input().split()))
+print("Squared elements:", square_elements(lst))
