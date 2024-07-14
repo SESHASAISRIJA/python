@@ -1,0 +1,7 @@
+def rotate_list(lst, k):
+    k = k % len(lst)  
+    return lst[-k:] + lst[:-k]
+
+lst = list(map(int, input("Enter a list of numbers separated by space: ").split()))
+k = int(input("Enter the value of k: "))
+print(f"Rotated list: {rotate_list(lst, k)}")
