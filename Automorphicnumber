@@ -1,0 +1,6 @@
+def is_automorphic(n):
+    square = n ** 2
+    return str(square).endswith(str(n))
+
+n = int(input("Enter a number: "))
+print(f"{n} is an automorphic number: {is_automorphic(n)}")
