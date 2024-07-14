@@ -6,3 +6,5 @@ def square_elements(lst):
 
 lst = list(map(int, input().split()))
 print("Squared elements:", square_elements(lst))
+
+                 
